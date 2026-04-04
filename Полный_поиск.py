@@ -4,10 +4,10 @@ from io import BytesIO  # Этот класс поможет нам сделат
 import requests
 from PIL import Image
 
-from showObj import show_obj
+from function import show_obj
 
 # Пусть наше приложение предполагает запуск:
-# python search.py Москва, ул. Ак. Королева, 12
+#  python Полный_поиск.py Москва, ул. Ак. Королева, 12
 # Тогда запрос к геокодеру формируется следующим образом:
 toponym_to_find = " ".join(sys.argv[1:])
 
